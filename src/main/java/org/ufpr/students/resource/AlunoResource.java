@@ -34,7 +34,6 @@ public class AlunoResource {
 	@Path("{id}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response find(@PathParam("id") Long id) {
-		System.out.println( "aqui" );
 		return Response.ok( service.find( id ) ).build();
 	}
 

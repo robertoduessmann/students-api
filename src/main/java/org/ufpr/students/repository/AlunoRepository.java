@@ -23,7 +23,6 @@ public class AlunoRepository {
 	}
 
 	public Aluno find(Long id) {
-		System.out.println( "aqui3" );
 		return entityManager.find( Aluno.class, id );
 	}
 

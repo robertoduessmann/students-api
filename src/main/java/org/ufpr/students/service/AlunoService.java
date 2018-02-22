@@ -22,7 +22,6 @@ public class AlunoService {
 	}
 
 	public Aluno find(Long id) {
-		System.out.println( "aqu2" );
 		return repository.find( id );
 	}
 
